@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Abertura da tag html com especificação de linguagem -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Definição do conjunto de caracteres UTF-8 -->
+    <title>Pagina IBM</title> <!-- Título da página -->
+
+    <!-- Links para o ícone da página e pré-conexão para Google Fonts -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importação de fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Parisienne&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS internos -->
+    <style type="text/css">
+        /* Estilos para a tabela do cabeçalho */
+        table.head {
+            background: rgb(176, 28, 176);
+            background: linear-gradient(90deg, rgb(228, 91, 228) 10%, rgb(85, 93, 255) 15%, rgb(152, 235, 252) 100%);
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        /* Animação para divs com a classe 'anim' */
+        div.anim {
+            animation-duration: 3s;
+            animation-delay: 5ms;
+            animation-name: head;
+        }
+
+        /* Definição da animação 'head' */
+        @keyframes head {
+            from {
+                margin-left: 380px;
+            }
+
+            to {
+                margin-left: 20%;
+            }
+        }
+
+        /* Animação para divs com a classe 'anim2' */
+        div.anim2 {
+            animation-duration: 3s;
+            animation-delay: 5ms;
+            animation-name: head2;
+        }
+
+        /* Estilo para o quadrado branco */
+        div.quadrado {
+            background-color: white;
+            border-radius: 10px;
+            margin-top: 3%;
+        }
+
+        /* Parágrafos justificados */
+        p.justificado {
+            text-align: justify;
+        }
+
+        /* Definição da animação 'head2' */
+        @keyframes head2 {
+            from {
+                margin-right: 20%;
+            }
+
+            to {
+                margin-right: 100%;
+            }
+        }
+
+        /* Estilos para o cabeçalho h1 */
+        h1.sub {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 50px;
+        }
+
+        /* Animação para divs com a classe 'anim3' */
+        div.anim3 {
+            animation-duration: 3s;
+            animation-delay: 5ms;
+            animation-name: head3;
+        }
+
+        /* Efeitos de transformação ao passar o mouse sobre as divs animadas */
+        div.anim:hover {
+            transform: scale(1.25);
+            transition: transform .3s;
+        }
+
+        div.anim2:hover {
+            transform: scale(1.5);
+            transition: transform .3s;
+        }
+
+        div.anim3:hover {
+            transform: scale(1.25);
+            transition: transform .3s;
+        }
+
+        /* Definição da animação 'head3' */
+        @keyframes head3 {
+            from {
+                margin-left: 50%;
+            }
+
+            to {
+                margin-left: 0%;
+            }
+        }
+
+        /* Estilo para links */
+        a {
+            text-decoration: dotted;
+        }
+    </style>
+</head>
+
+<body style="margin-top: 50px; margin-right: 50px; margin-left: 50px;" bgcolor="black">
+    <div class="quadrado" style="padding: 10px; background-image: url(ibmbg.png); background-repeat: no-repeat; background-position: center; background-size: 115%;">
+        <!-- Início do menu topo -->
+        <table class="head">
+            <tr class="head">
+                <!-- Coluna para o nome "Steve Wozniak" -->
+                <td width="35%">
+                    <div class="anim" style="margin-left: 20%; font-family:  Tangerine, cursive; font-size: 35PX;">
+                        <a href="wozniak.html" style="color: lightcyan;">Steve Wozniak</a>
+                    </div>
+                </td>
+                <!-- Coluna para o ícone da casa -->
+                <td>
+                    <div class="anim3" style="margin-left: 0%; font-family: luminari, fantasy; font-size: 30PX;">
+                        <a href="index.html"><img src="casa.png" width="25%"></a>
+                    </div>
+                </td>
+                <!-- Coluna para o ícone da IBM -->
+                <td width="50%">
+                    <div class="anim2" style="margin-right: 100%; display: flex; justify-content: end; text-align: center; font-family: IBM LOGO; font-size: 30PX;">
+                        <a href="ibm.html" style="color: rgb(2, 6, 248);"><img src="ibm2.png" alt="" width="80px"></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- Fim do menu topo -->
+
+        <!-- Início dos textos -->
+        <div style="margin-left: 100px; margin-right: 100px;">
+            <h1 class="sub">História IBM</h1>
+            <table>
+                <tr>
+                    <td width="60%">
+                        <!-- Parágrafos justificados sobre a história da IBM -->
+                        <p class="justificado">A IBM, International Business Machines Corporation, é uma empresa multinacional de tecnologia e consultoria com sede nos Estados Unidos. Fundada em 1911, a IBM é uma das empresas mais antigas e reconhecidas no setor de tecnologia. Inicialmente focada em hardware, como máquinas de tabulação e computadores mainframe, a IBM expandiu suas operações para incluir serviços de software, serviços de nuvem, inteligência artificial, análise de dados e consultoria em tecnologia.</p>
+
+                        <p class="justificado">Ao longo de sua história, a IBM foi responsável por inovações importantes, como o desenvolvimento do primeiro computador comercialmente viável, o IBM 360, e a criação do sistema operacional OS/360. A empresa também desempenhou um papel fundamental na evolução da computação pessoal, com o lançamento do IBM Personal Computer (PC) em 1981.</p>
+
+                        <p>Atualmente, a IBM é uma líder em tecnologias emergentes, como inteligência artificial, computação em nuvem e blockchain. Além disso, a empresa é conhecida por seu compromisso com a pesquisa e desenvolvimento, mantendo vários laboratórios de pesquisa em todo o mundo.</p>
+                        
+                        <p>A IBM tem uma ampla gama de clientes, que vão desde empresas de pequeno porte até grandes corporações e governos. Sua missão é fornecer soluções tecnológicas inovadoras que ajudem seus clientes a resolver problemas complexos e impulsionar o progresso em diversos setores da economia global.</p>
+                    </td>
+                    
+                    <!-- Coluna para a imagem "ibminc.jpg" -->
+                    <td width="*" align="center"> <IMG src="ibminc.jpg"></td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <!-- Coluna para a imagem "IBM-Logo-History.jpg" -->
+                    <td width="*" align="center"><img src="IBM-Logo-History.jpg"></td>
+
+                    <td width="60%">
+                        <!-- Mais parágrafos justificados sobre a história da IBM -->
+                        <p class="justificado">Após 1985, a IBM passou por várias mudanças significativas e eventos importantes. Aqui estão alguns dos principais acontecimentos da IBM nesse período:</p>
+
+                        <p class="justificado">Reestruturação e foco em software e serviços (1990s): Na década de 1990, a IBM enfrentou desafios financeiros significativos e passou por uma reestruturação que a levou a se concentrar mais em software e serviços. Isso incluiu a aquisição de empresas de software, como Lotus Development Corporation (criadora do Lotus Notes) e Tivoli Systems (especializada em gerenciamento de sistemas), fortalecendo sua posição nesses mercados.</p>
+
+                        <p class="justificado">Adoção de Linux e Open Source: Nos anos 2000, a IBM se tornou um grande defensor do Linux e do movimento de software de código aberto. Isso incluiu investimentos significativos em desenvolvimento de software e suporte ao Linux, bem como contribuições para a comunidade de código aberto.</p>
+
+                        <p class="justificado">Venda da divisão de PCs: Em 2005, a IBM vendeu sua divisão de computadores pessoais para a Lenovo, uma empresa chinesa. Essa venda marcou uma mudança estratégica para a IBM, que decidiu se concentrar em áreas de maior margem, como software e serviços.</p>
+
+                        <p class="justificado">Crescimento em serviços de consultoria e nuvem: A IBM expandiu sua presença em serviços de consultoria e nuvem, incluindo a aquisição da PricewaterhouseCoopers Consulting em 2002, fortalecendo suas capacidades de consultoria. Além disso, a IBM investiu pesadamente em tecnologias de nuvem, incluindo o lançamento da IBM Cloud em 2007.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td width="60%">
+                        <!-- Continuação dos parágrafos justificados sobre a história da IBM -->
+                        <p class="justificado">Desenvolvimento de Watson e IA: A IBM desenvolveu o Watson, um sistema de inteligência artificial capaz de responder a perguntas em linguagem natural, que ganhou destaque ao vencer humanos no programa de televisão Jeopardy! em 2011. Desde então, a IBM tem continuado a investir em inteligência artificial e tecnologias cognitivas.</p>
+
+                        <p class="justificado">Aquisições estratégicas: A IBM realizou várias aquisições estratégicas ao longo dos anos para fortalecer suas ofertas e expandir seu alcance em diferentes setores. Isso inclui a compra da Red Hat, uma empresa líder em software de código aberto, em 2019, por um valor de US $ 34 bilhões, marcando uma das maiores aquisições da história da IBM.</p>
+
+                        <p class="justificado">Transformação digital e foco em soluções em nuvem e IA: Nos últimos anos, a IBM tem se concentrado em ajudar seus clientes a passarem por transformações digitais, oferecendo soluções em nuvem, inteligência artificial, análise de dados e segurança cibernética. A empresa continua a ser uma das principais fornecedoras de tecnologia e consultoria em todo o mundo, atendendo a uma ampla gama de setores e indústrias.</p>
+                    </td>
+
+                    <!-- Coluna para a imagem "img.ibm.jpg" -->
+                    <td width="*" align="center"><img src="img.ibm.jpg"></td>
+                </tr>
+            </table>
+        </div>
+        <hr> <!-- Linha horizontal -->
+
+        <!-- Rodapé da página -->
+        <p style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(0, 0, 0);">
+            ©Site criado e desenvolvido pelo Grupo 7. Todos os direitos reservados™
+        </p>
+    </div>
+</body>
+</html> <!-- Fechamento da tag html -->

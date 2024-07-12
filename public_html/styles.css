@@ -1,0 +1,138 @@
+.menu {
+    width: 200px; /* Largura do menu */
+    background-color: #f4f4f400; /* Cor de fundo do menu com transparência */
+    display: none; /* Oculta o menu inicialmente */
+    font-family: luminari, fantasy; /* Estilo de fonte para o menu */
+    font-size: 15PX; /* Tamanho da fonte do menu (em maiúsculas por engano, o correto seria 'px') */
+    list-style-type: none; /* Remove os marcadores de lista */
+}
+
+.index {
+    position: center; /* Propriedade inválida, o correto seria 'center' para centralizar */
+    margin-top: 50px; /* Margem superior de 50 pixels */
+    margin-right: 50px; /* Margem direita de 50 pixels */
+    margin-left: 50px; /* Margem esquerda de 50 pixels */
+    background-image: url(corredor.jpg); /* Imagem de fundo da página */
+    background-size: 100%; /* Tamanho da imagem de fundo */
+    height: 100vh; /* Altura da página igual à altura da viewport */
+    background-repeat: no-repeat; /* Evita repetição da imagem de fundo */
+}
+.banco{
+    position: center; /* Propriedade inválida, o correto seria 'center' para centralizar */
+    margin-top: 50px; /* Margem superior de 50 pixels */
+    margin-right: 50px; /* Margem direita de 50 pixels */
+    margin-left: 50px; /* Margem esquerda de 50 pixels */
+    background-image: url(bgmobile.jpg); /* Imagem de fundo da página */
+    background-size: 100%; /* Tamanho da imagem de fundo */
+    height: 100vh; /* Altura da página igual à altura da viewport */
+    background-repeat: no-repeat; /* Evita repetição da imagem de fundo */
+
+}
+
+.glosetica {
+    width: 60%; /* Largura de 60% para elementos com a classe glosetica */
+}
+
+@media only screen and (max-width: 1081px) {
+    .index {
+        background-image: url('bgmobile.jpg'); /* Imagem de fundo diferente para telas menores que 1081px */
+    }
+    .glosetica {
+        width: 100%; /* Largura de 100% para elementos com a classe glosetica em telas menores */
+    }
+}
+
+.head {
+    background: linear-gradient(90deg, rgb(204, 82, 204) 35%, rgb(85, 93, 255) 60%, rgb(152, 235, 252) 100%);
+    /* Estilo de fundo com gradiente linear para elementos com a classe head */
+    width: 100%; /* Largura de 100% */
+    height: cover; /* Cobrir totalmente o conteúdo interno */
+    border-radius: 10px; /* Borda arredondada com raio de 10 pixels */
+}
+
+tr.head {
+    border-style: ridge; /* Estilo de borda em relevo para linhas de tabela com a classe head */
+    max-height: 10%; /* Altura máxima de 10% para as linhas de tabela */
+}
+
+/* Estilos de animação */
+div.anim {
+    animation-duration: 3s; /* Duração da animação de 3 segundos */
+    animation-delay: 5ms; /* Atraso inicial da animação de 5 milissegundos */
+    animation-name: head; /* Nome da animação definida por @keyframes */
+}
+
+@keyframes head {
+    from {
+        margin-left: 25%; /* Margem esquerda inicial de 25% */
+    }
+
+    to {
+        margin-left: 5%; /* Margem esquerda final de 5% */
+    }
+}
+
+div.anim2 {
+    animation-duration: 3s; /* Duração da animação de 3 segundos */
+    animation-delay: 5ms; /* Atraso inicial da animação de 5 milissegundos */
+    animation-name: head2; /* Nome da animação definida por @keyframes */
+}
+
+div.anim:hover {
+    transform: scale(1.25); /* Escala de aumento ao passar o mouse */
+    transition: transform .3s; /* Transição suave de 0.3 segundos para a transformação */
+}
+
+div.anim2:hover {
+    transform: scale(1.25); /* Escala de aumento ao passar o mouse */
+    transition: transform .3s; /* Transição suave de 0.3 segundos para a transformação */
+}
+
+div.anim3:hover {
+    transform: scale(1.25); /* Escala de aumento ao passar o mouse */
+    transition: transform .3s; /* Transição suave de 0.3 segundos para a transformação */
+}
+
+@keyframes head2 {
+    from {
+        margin-right: 85%; /* Margem direita inicial de 85% */
+    }
+
+    to {
+        margin-right: 40%; /* Margem direita final de 40% */
+    }
+}
+
+img.logo {
+    animation-duration: 3s; /* Duração da animação de 3 segundos */
+    animation-delay: 5ms; /* Atraso inicial da animação de 5 milissegundos */
+    animation-name: logo; /* Nome da animação definida por @keyframes */
+}
+
+@keyframes logo {
+    0% {
+        transform: scale(0.5); /* Escala inicial de 50% */
+    }
+
+    50% {
+        transform: scale(0.3); /* Escala de 30% na metade da animação */
+    }
+
+    100% {
+        transform: scale(1); /* Escala final de 100% */
+    }
+}
+
+a {
+    text-decoration: dotted; /* Estilo de decoração para sumir a linha embaixo do link*/
+}
+
+li:hover {
+    transform: scale(1.25); /* Escala de aumento ao passar o mouse sobre itens de lista */
+    transition: transform .3s; /* Transição suave de 0.3 segundos para a transformação */
+}
+.strokelink{
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
