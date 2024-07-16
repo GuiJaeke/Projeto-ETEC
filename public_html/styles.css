@@ -36,6 +36,7 @@
 @media only screen and (max-width: 1081px) {
     .index {
         background-image: url('bgmobile.jpg'); /* Imagem de fundo diferente para telas menores que 1081px */
+        
     }
     .glosetica {
         width: 100%; /* Largura de 100% para elementos com a classe glosetica em telas menores */
@@ -46,7 +47,7 @@
     background: linear-gradient(90deg, rgb(204, 82, 204) 35%, rgb(85, 93, 255) 60%, rgb(152, 235, 252) 100%);
     /* Estilo de fundo com gradiente linear para elementos com a classe head */
     width: 100%; /* Largura de 100% */
-    height: cover; /* Cobrir totalmente o conteúdo interno */
+    height: fit-content; /* Cobrir totalmente o conteúdo interno */
     border-radius: 10px; /* Borda arredondada com raio de 10 pixels */
 }
 
